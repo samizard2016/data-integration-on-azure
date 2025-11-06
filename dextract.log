@@ -1,0 +1,156 @@
+20-01-2023 10:07:49 INFO     [synerGDE.py:31] A new session of dextract starts
+20-01-2023 10:08:44 INFO     [synerGDE.py:31] A new session of dextract starts
+20-01-2023 10:08:47 INFO     [synerGDE.py:102] processing the docs
+20-01-2023 10:08:48 INFO     [azure_blob_download.py:19] Connection to Azure Blob was successful
+20-01-2023 10:08:49 INFO     [azure_blob_download.py:41] Downloaded all the blobs from azure storage
+20-01-2023 10:08:54 INFO     [extract_data.py:42] data extraction done from FPDF00001.pdf
+20-01-2023 10:08:54 INFO     [extract_data.py:108] Sucessfully uploaded the FPDF00001_ExtractedText.xlsx to azure storage
+20-01-2023 10:08:54 INFO     [extract_data.py:53] FPDF00001.pdf has been extracted to FPDF00001_ExtractedText.xlsx
+20-01-2023 10:08:54 INFO     [data_integration.py:52] extracted all files
+20-01-2023 10:08:54 INFO     [synerGDE.py:111] processing over
+20-01-2023 10:09:52 INFO     [synerGDE.py:31] A new session of dextract starts
+20-01-2023 10:11:11 INFO     [synerGDE.py:31] A new session of dextract starts
+20-01-2023 12:13:54 INFO     [synerGDE.py:31] A new session of dextract starts
+20-01-2023 12:13:59 INFO     [synerGDE.py:122] in extract_data
+20-01-2023 12:13:59 INFO     [azure_blob_download.py:19] Connection to Azure Blob was successful
+20-01-2023 12:14:00 INFO     [azure_blob_download.py:41] Downloaded all the blobs from azure storage
+20-01-2023 12:14:03 INFO     [azure_blob_download.py:41] Downloaded all the blobs from azure storage
+20-01-2023 12:14:04 INFO     [azure_blob_download.py:41] Downloaded all the blobs from azure storage
+20-01-2023 12:14:09 INFO     [extract_data.py:42] data extraction done from FPDF00001.pdf
+20-01-2023 12:14:09 INFO     [extract_data.py:108] Sucessfully uploaded the FPDF00001_ExtractedText.xlsx to azure storage
+20-01-2023 12:14:09 INFO     [extract_data.py:53] FPDF00001.pdf has been extracted to FPDF00001_ExtractedText.xlsx
+20-01-2023 12:14:48 INFO     [extract_data.py:26] FPPT00002.pptx converted successfully
+20-01-2023 12:14:49 INFO     [extract_data.py:29] soup prepared successfully from FPPT00002.html
+20-01-2023 12:14:49 INFO     [extract_data.py:42] data extraction done from FPPT00002.pptx
+20-01-2023 12:14:50 INFO     [extract_data.py:108] Sucessfully uploaded the FPPT00002_ExtractedText.xlsx to azure storage
+20-01-2023 12:14:50 INFO     [extract_data.py:53] FPPT00002.pptx has been extracted to FPPT00002_ExtractedText.xlsx
+20-01-2023 12:14:56 INFO     [extract_data.py:26] FPPT00007.pptx converted successfully
+20-01-2023 12:14:56 INFO     [extract_data.py:29] soup prepared successfully from FPPT00007.html
+20-01-2023 12:14:56 INFO     [extract_data.py:42] data extraction done from FPPT00007.pptx
+20-01-2023 12:14:56 INFO     [extract_data.py:108] Sucessfully uploaded the FPPT00007_ExtractedText.xlsx to azure storage
+20-01-2023 12:14:56 INFO     [extract_data.py:53] FPPT00007.pptx has been extracted to FPPT00007_ExtractedText.xlsx
+20-01-2023 12:15:27 INFO     [data_integration.py:65] FPPT00002_ExtractedHTML.html file created
+20-01-2023 12:15:30 INFO     [data_integration.py:89] Sucessfully uploaded the FPPT00002.pptx to azure storage
+20-01-2023 12:15:31 INFO     [data_integration.py:89] Sucessfully uploaded the FPPT00002_ExtractedHTML.html to azure storage
+20-01-2023 12:15:46 INFO     [table_extraction.py:130] Table data extracted from FPPT00002.pptx
+20-01-2023 12:15:47 INFO     [table_extraction.py:149] Sucessfully uploaded the FPPT00002_ExtractedTable.xlsx to azure storage
+20-01-2023 12:16:45 INFO     [table_headers.py:88] Table headers extracted from FPPT00002.pptx
+20-01-2023 12:16:46 INFO     [table_headers.py:105] Sucessfully uploaded the FPPT00002_ExtractedTableHeaders.xlsx to azure storage
+20-01-2023 12:16:48 INFO     [pptx_chart_extraction.py:92] Chart data extracted from FPPT00002.pptx
+20-01-2023 12:16:48 INFO     [pptx_chart_extraction.py:112] Sucessfully uploaded the FPPT00002_ExtractedChart.xlsx  to azure storage
+20-01-2023 12:16:48 INFO     [data_integration.py:44] Sucessfully extracted all the data from FPPT00002.pptx
+20-01-2023 12:16:48 INFO     [azure_blob_download.py:19] Connection to Azure Blob was successful
+20-01-2023 12:16:49 INFO     [data_integration.py:94] Deleted the input file FPPT00002.pptx from the storage
+20-01-2023 12:16:54 INFO     [data_integration.py:65] FPPT00007_ExtractedHTML.html file created
+20-01-2023 12:16:55 INFO     [data_integration.py:89] Sucessfully uploaded the FPPT00007.pptx to azure storage
+20-01-2023 12:16:56 INFO     [data_integration.py:89] Sucessfully uploaded the FPPT00007_ExtractedHTML.html to azure storage
+20-01-2023 12:16:57 INFO     [table_extraction.py:130] Table data extracted from FPPT00007.pptx
+20-01-2023 12:16:57 INFO     [table_extraction.py:149] Sucessfully uploaded the FPPT00007_ExtractedTable.xlsx to azure storage
+20-01-2023 12:17:02 INFO     [table_headers.py:88] Table headers extracted from FPPT00007.pptx
+20-01-2023 12:17:02 INFO     [table_headers.py:105] Sucessfully uploaded the FPPT00007_ExtractedTableHeaders.xlsx to azure storage
+20-01-2023 12:17:02 INFO     [pptx_chart_extraction.py:92] Chart data extracted from FPPT00007.pptx
+20-01-2023 12:17:02 INFO     [pptx_chart_extraction.py:112] Sucessfully uploaded the FPPT00007_ExtractedChart.xlsx  to azure storage
+20-01-2023 12:17:02 INFO     [data_integration.py:44] Sucessfully extracted all the data from FPPT00007.pptx
+20-01-2023 12:17:02 INFO     [azure_blob_download.py:19] Connection to Azure Blob was successful
+20-01-2023 12:17:02 INFO     [data_integration.py:94] Deleted the input file FPPT00007.pptx from the storage
+20-01-2023 12:17:02 INFO     [data_integration.py:52] extracted all files
+20-01-2023 12:17:53 INFO     [synergde.py:31] A new session of dextract starts
+20-01-2023 12:17:57 INFO     [synergde.py:122] in extract_data
+20-01-2023 12:17:57 INFO     [azure_blob_download.py:19] Connection to Azure Blob was successful
+20-01-2023 12:17:58 INFO     [azure_blob_download.py:41] Downloaded all the blobs from azure storage
+20-01-2023 12:18:03 INFO     [extract_data.py:42] data extraction done from FPDF00001.pdf
+20-01-2023 12:18:03 INFO     [extract_data.py:108] Sucessfully uploaded the FPDF00001_ExtractedText.xlsx to azure storage
+20-01-2023 12:18:03 INFO     [extract_data.py:53] FPDF00001.pdf has been extracted to FPDF00001_ExtractedText.xlsx
+20-01-2023 12:18:36 INFO     [extract_data.py:26] FPPT00002.pptx converted successfully
+20-01-2023 12:18:38 INFO     [extract_data.py:29] soup prepared successfully from FPPT00002.html
+20-01-2023 12:18:38 INFO     [extract_data.py:42] data extraction done from FPPT00002.pptx
+20-01-2023 12:18:38 INFO     [extract_data.py:108] Sucessfully uploaded the FPPT00002_ExtractedText.xlsx to azure storage
+20-01-2023 12:18:38 INFO     [extract_data.py:53] FPPT00002.pptx has been extracted to FPPT00002_ExtractedText.xlsx
+20-01-2023 12:18:43 INFO     [extract_data.py:26] FPPT00007.pptx converted successfully
+20-01-2023 12:18:43 INFO     [extract_data.py:29] soup prepared successfully from FPPT00007.html
+20-01-2023 12:18:43 INFO     [extract_data.py:42] data extraction done from FPPT00007.pptx
+20-01-2023 12:18:44 INFO     [extract_data.py:108] Sucessfully uploaded the FPPT00007_ExtractedText.xlsx to azure storage
+20-01-2023 12:18:44 INFO     [extract_data.py:53] FPPT00007.pptx has been extracted to FPPT00007_ExtractedText.xlsx
+20-01-2023 12:19:12 INFO     [data_integration.py:65] FPPT00002_ExtractedHTML.html file created
+20-01-2023 12:19:15 INFO     [data_integration.py:89] Sucessfully uploaded the FPPT00002.pptx to azure storage
+20-01-2023 12:19:16 INFO     [data_integration.py:89] Sucessfully uploaded the FPPT00002_ExtractedHTML.html to azure storage
+20-01-2023 12:19:32 INFO     [table_extraction.py:130] Table data extracted from FPPT00002.pptx
+20-01-2023 12:19:32 INFO     [table_extraction.py:149] Sucessfully uploaded the FPPT00002_ExtractedTable.xlsx to azure storage
+20-01-2023 12:20:31 INFO     [table_headers.py:88] Table headers extracted from FPPT00002.pptx
+20-01-2023 12:20:31 INFO     [table_headers.py:105] Sucessfully uploaded the FPPT00002_ExtractedTableHeaders.xlsx to azure storage
+20-01-2023 12:20:34 INFO     [pptx_chart_extraction.py:92] Chart data extracted from FPPT00002.pptx
+20-01-2023 12:20:34 INFO     [pptx_chart_extraction.py:112] Sucessfully uploaded the FPPT00002_ExtractedChart.xlsx  to azure storage
+20-01-2023 12:20:34 INFO     [data_integration.py:44] Sucessfully extracted all the data from FPPT00002.pptx
+20-01-2023 12:20:34 INFO     [azure_blob_download.py:19] Connection to Azure Blob was successful
+20-01-2023 12:20:34 INFO     [data_integration.py:51] problem in removing file from storage FPPT00002.pptx:The specified blob does not exist.
+RequestId:5d599758-001e-0068-799b-2cd09c000000
+Time:2023-01-20T06:50:34.7883916Z
+ErrorCode:BlobNotFound
+Content: <?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.
+RequestId:5d599758-001e-0068-799b-2cd09c000000
+Time:2023-01-20T06:50:34.7883916Z</Message></Error>
+20-01-2023 12:20:40 INFO     [data_integration.py:65] FPPT00007_ExtractedHTML.html file created
+20-01-2023 12:20:41 INFO     [data_integration.py:89] Sucessfully uploaded the FPPT00007.pptx to azure storage
+20-01-2023 12:20:41 INFO     [data_integration.py:89] Sucessfully uploaded the FPPT00007_ExtractedHTML.html to azure storage
+20-01-2023 12:20:43 INFO     [table_extraction.py:130] Table data extracted from FPPT00007.pptx
+20-01-2023 12:20:43 INFO     [table_extraction.py:149] Sucessfully uploaded the FPPT00007_ExtractedTable.xlsx to azure storage
+20-01-2023 12:20:48 INFO     [table_headers.py:88] Table headers extracted from FPPT00007.pptx
+20-01-2023 12:20:48 INFO     [table_headers.py:105] Sucessfully uploaded the FPPT00007_ExtractedTableHeaders.xlsx to azure storage
+20-01-2023 12:20:48 INFO     [pptx_chart_extraction.py:92] Chart data extracted from FPPT00007.pptx
+20-01-2023 12:20:48 INFO     [pptx_chart_extraction.py:112] Sucessfully uploaded the FPPT00007_ExtractedChart.xlsx  to azure storage
+20-01-2023 12:20:48 INFO     [data_integration.py:44] Sucessfully extracted all the data from FPPT00007.pptx
+20-01-2023 13:18:49 INFO     [synergde.py:31] A new session of dextract starts
+20-01-2023 13:19:08 INFO     [synergde.py:122] in extract_data
+20-01-2023 13:19:09 INFO     [azure_blob_download.py:19] Connection to Azure Blob was successful
+20-01-2023 13:19:09 INFO     [azure_blob_download.py:41] Downloaded all the blobs from azure storage
+20-01-2023 13:19:15 INFO     [extract_data.py:43] data extraction done from FPDF00001.pdf
+20-01-2023 13:19:16 INFO     [extract_data.py:115] Sucessfully uploaded the FPDF00001_ExtractedText.xlsx to azure storage
+20-01-2023 13:19:16 INFO     [azure_blob_download.py:19] Connection to Azure Blob was successful
+20-01-2023 13:19:16 INFO     [extract_data.py:60] FPDF00001.pdf has been extracted to FPDF00001_ExtractedText.xlsx
+20-01-2023 13:20:06 INFO     [extract_data.py:27] FPPT00002.pptx converted successfully
+20-01-2023 13:20:07 INFO     [extract_data.py:30] soup prepared successfully from FPPT00002.html
+20-01-2023 13:20:07 INFO     [extract_data.py:43] data extraction done from FPPT00002.pptx
+20-01-2023 13:20:07 INFO     [extract_data.py:115] Sucessfully uploaded the FPPT00002_ExtractedText.xlsx to azure storage
+20-01-2023 13:20:07 INFO     [extract_data.py:60] FPPT00002.pptx has been extracted to FPPT00002_ExtractedText.xlsx
+20-01-2023 13:20:16 INFO     [extract_data.py:27] FPPT00007.pptx converted successfully
+20-01-2023 13:20:17 INFO     [extract_data.py:30] soup prepared successfully from FPPT00007.html
+20-01-2023 13:20:17 INFO     [extract_data.py:43] data extraction done from FPPT00007.pptx
+20-01-2023 13:20:17 INFO     [extract_data.py:115] Sucessfully uploaded the FPPT00007_ExtractedText.xlsx to azure storage
+20-01-2023 13:20:17 INFO     [extract_data.py:60] FPPT00007.pptx has been extracted to FPPT00007_ExtractedText.xlsx
+20-01-2023 13:20:54 INFO     [data_integration.py:65] FPPT00002_ExtractedHTML.html file created
+20-01-2023 13:20:57 INFO     [data_integration.py:89] Sucessfully uploaded the FPPT00002.pptx to azure storage
+20-01-2023 13:20:58 INFO     [data_integration.py:89] Sucessfully uploaded the FPPT00002_ExtractedHTML.html to azure storage
+20-01-2023 13:21:18 INFO     [table_extraction.py:130] Table data extracted from FPPT00002.pptx
+20-01-2023 13:21:18 INFO     [table_extraction.py:149] Sucessfully uploaded the FPPT00002_ExtractedTable.xlsx to azure storage
+20-01-2023 13:22:34 INFO     [table_headers.py:88] Table headers extracted from FPPT00002.pptx
+20-01-2023 13:22:34 INFO     [table_headers.py:105] Sucessfully uploaded the FPPT00002_ExtractedTableHeaders.xlsx to azure storage
+20-01-2023 13:22:39 INFO     [pptx_chart_extraction.py:92] Chart data extracted from FPPT00002.pptx
+20-01-2023 13:22:39 INFO     [pptx_chart_extraction.py:112] Sucessfully uploaded the FPPT00002_ExtractedChart.xlsx  to azure storage
+20-01-2023 13:22:39 INFO     [data_integration.py:44] Sucessfully extracted all the data from FPPT00002.pptx
+20-01-2023 13:22:39 INFO     [azure_blob_download.py:19] Connection to Azure Blob was successful
+20-01-2023 13:22:39 INFO     [data_integration.py:51] problem in removing file from storage FPPT00002.pptx:The specified blob does not exist.
+RequestId:07340316-e01e-0062-71a4-2cc915000000
+Time:2023-01-20T07:52:39.6135760Z
+ErrorCode:BlobNotFound
+Content: <?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.
+RequestId:07340316-e01e-0062-71a4-2cc915000000
+Time:2023-01-20T07:52:39.6135760Z</Message></Error>
+20-01-2023 13:22:47 INFO     [data_integration.py:65] FPPT00007_ExtractedHTML.html file created
+20-01-2023 13:22:47 INFO     [data_integration.py:89] Sucessfully uploaded the FPPT00007.pptx to azure storage
+20-01-2023 13:22:48 INFO     [data_integration.py:89] Sucessfully uploaded the FPPT00007_ExtractedHTML.html to azure storage
+20-01-2023 13:22:50 INFO     [table_extraction.py:130] Table data extracted from FPPT00007.pptx
+20-01-2023 13:22:50 INFO     [table_extraction.py:149] Sucessfully uploaded the FPPT00007_ExtractedTable.xlsx to azure storage
+20-01-2023 13:22:56 INFO     [table_headers.py:88] Table headers extracted from FPPT00007.pptx
+20-01-2023 13:22:56 INFO     [table_headers.py:105] Sucessfully uploaded the FPPT00007_ExtractedTableHeaders.xlsx to azure storage
+20-01-2023 13:22:56 INFO     [pptx_chart_extraction.py:92] Chart data extracted from FPPT00007.pptx
+20-01-2023 13:22:56 INFO     [pptx_chart_extraction.py:112] Sucessfully uploaded the FPPT00007_ExtractedChart.xlsx  to azure storage
+20-01-2023 13:22:56 INFO     [data_integration.py:44] Sucessfully extracted all the data from FPPT00007.pptx
+20-01-2023 13:22:56 INFO     [azure_blob_download.py:19] Connection to Azure Blob was successful
+20-01-2023 13:22:56 INFO     [data_integration.py:51] problem in removing file from storage FPPT00007.pptx:The specified blob does not exist.
+RequestId:5995178c-101e-007c-80a4-2c13f8000000
+Time:2023-01-20T07:52:57.1065470Z
+ErrorCode:BlobNotFound
+Content: <?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.
+RequestId:5995178c-101e-007c-80a4-2c13f8000000
+Time:2023-01-20T07:52:57.1065470Z</Message></Error>
+20-01-2023 13:22:56 INFO     [data_integration.py:52] extracted all files
